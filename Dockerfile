@@ -1,7 +1,7 @@
-From python:3.12-slim
-Workdir /app
-Copy requirements.txt .
-Run pip install --no-cache-dir requirements.txt
-Copy . .
-Expose 5000
-Cmd ("python", "flaskdemo.py")
+from python:3.12-slim
+workdir /app
+copy requirements.txt .
+run pip install --no-cache-dir -r requirements.txt
+copy . .
+expose 5000
+cmd ["python","flaskdemo.py"]
