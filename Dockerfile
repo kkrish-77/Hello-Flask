@@ -4,4 +4,4 @@ Copy requirements.txt .
 Run pip install --no-cache-dir requirements.txt
 Copy . .
 Expose 5000
-CMD ("python", "flaskdemo.py")
+Cmd ("python", "flaskdemo.py")
