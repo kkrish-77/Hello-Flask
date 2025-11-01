@@ -17,5 +17,5 @@ spec:
         image: kkrish7/demo1:latest
         ports:
         - containerPort: 5000
-          targetPort: 5000
+
   
