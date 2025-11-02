@@ -4,4 +4,5 @@ metadata:
   name: Cluster-Issuer
 spec:
   acme:
-    
+    email: 'kkrishsinghwork8@gmail.com'
+    server: 'https//acme-v02.api.letsencryot.org/directory'
