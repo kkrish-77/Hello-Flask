@@ -6,3 +6,10 @@ spec:
   acme:
     email: 'kkrishsinghwork8@gmail.com'
     server: 'https//acme-v02.api.letsencryot.org/directory'
+    privateKeySecretRef:
+      name: Cluster-key-issuer
+  
+  solvers:
+  - http01:
+      ingress: 
+        class: nginx
