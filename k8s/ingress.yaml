@@ -13,8 +13,8 @@ spec:
   ingressClassName: nginx
   tls:
   - host:
-    - kkrishflask.duckdns.com
-    secretName: kkrishflask-tls
+    -  kkrishflask.duckdns.com
+    secretName: Flask-secret
   rules:
     - hosts: kkrishflask.duckdns.com
       http:
