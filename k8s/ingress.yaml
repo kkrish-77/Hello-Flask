@@ -4,7 +4,7 @@ metadata:
   name: Ingress-Flask
   annotations:
     #This is for basically path trimming like if go on browser myntra/nike-shoes/size10..... it will redirect to myntra/nike-shoes
-    nginx.ingress.kubernetes.io/rewrite : /$1
+    nginx.ingress.kubernetes.io/rewrite-target : /$1
     # For integrating with cluster manager and service which we created
     cluster-manager.io/flask-service: flask-service
     # For routing traffic to HTTPS 
