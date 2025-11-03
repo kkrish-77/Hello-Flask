@@ -22,7 +22,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: flask-serice
+                name: flask-service
                 port: 
                   number:5000
       
