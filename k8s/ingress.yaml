@@ -6,7 +6,7 @@ metadata:
     #This is for basically path trimming like if go on browser myntra/nike-shoes/size10..... it will redirect to myntra/nike-shoes
     nginx.ingress.kubernetes.io/rewrite : /$1
     # For integrating with cluster manager and service which we created
-    cluster-manager.io/flask-service: 
+    cluster-manager.io/flask-service: flask-service
     # For routing traffic to HTTPS 
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
