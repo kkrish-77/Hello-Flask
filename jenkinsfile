@@ -2,8 +2,10 @@ pipeline{
     agent any
     
     stages{
-        stage{
-
+        stage("Git checkout"){
+            steps{
+                echo 'Git checkout'
+            }
         }
     }
 }
