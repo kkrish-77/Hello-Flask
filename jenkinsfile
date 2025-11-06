@@ -5,6 +5,7 @@ pipeline{
         stage("Git checkout"){
             steps{
                 echo 'Git checkout'
+                git 'https://github.com/kkrish-77/Hello-Flask.git'
             }
         }
     }
