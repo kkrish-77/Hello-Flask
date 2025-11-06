@@ -1,4 +1,9 @@
 pipeline{
     agent any
     
+    stage{
+        stages{
+            
+        }
+    }
 }
